@@ -6,7 +6,7 @@ public class Story {
 
     private Page[] stories;
 
-    public void startStories (){
+    public Story (){
 
         stories = new Page[7];
 
@@ -39,5 +39,13 @@ public class Story {
         stories[5] = new Page(R.drawable.page5, R.string.page5);
 
         stories[6] = new Page(R.drawable.page6, R.string.page6);
+    }
+
+    public Page getPage(int pageNumber) {
+
+        if (pageNumber >= stories.length) {
+            return  stories[0];
+        }
+        return  stories[pageNumber];
     }
 }
