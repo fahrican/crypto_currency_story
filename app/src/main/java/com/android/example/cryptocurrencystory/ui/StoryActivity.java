@@ -6,6 +6,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -25,6 +26,7 @@ public class StoryActivity extends AppCompatActivity {
     private TextView storyTextView;
     private Button choice1;
     private Button choice2;
+    private String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +39,7 @@ public class StoryActivity extends AppCompatActivity {
         this.choice2 = (Button) findViewById(R.id.choice2);
 
         Intent intent = getIntent();
-        String name = intent.getStringExtra(getString(R.string.user_name_key));
+        name = intent.getStringExtra(getString(R.string.user_name_key));
         if (name == null || name.isEmpty()) {
             name = "friend";
         }
@@ -48,10 +50,31 @@ public class StoryActivity extends AppCompatActivity {
     }
 
     private void loadPage(int pageNumber) {
+
         final Page page = story.getPage(pageNumber);
 
         Drawable pageImage = ContextCompat.getDrawable(this, page.getImageId());
         storyImage.setImageDrawable(pageImage);
-        Log.d(LOG_TAG, "yippie");
+
+        String pageText = getString(page.getTextId());
+        pageText = String.format(pageText, name);
+
+        storyTextView.setText(pageText);
+        choice1.setText(page.getChoice1().getTextId());
+        choice1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                loadPage(page.getChoice1().getNextPage());
+            }
+        });
+        choice2.setText(page.getChoice2().getTextId());
+        choice2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                
+                loadPage(page.getChoice2().getNextPage());
+            }
+        });
     }
 }

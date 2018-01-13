@@ -34,10 +34,17 @@ public class MainActivity extends AppCompatActivity {
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, StoryActivity.class);
-                intent.putExtra(getString(R.string.user_name_key), userName);
-                startActivity(intent);
+
+                String name = userInput.getText().toString();
+                startActivity(name);
             }
         });
+    }
+
+    private void startActivity(String userName){
+
+        Intent intent = new Intent(this, StoryActivity.class);
+        intent.putExtra(getString(R.string.user_name_key), userName);
+        startActivity(intent);
     }
 }

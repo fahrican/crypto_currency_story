@@ -6,7 +6,7 @@ public class Story {
 
     private Page[] stories;
 
-    public Story (){
+    public Story() {
 
         stories = new Page[7];
 
@@ -44,8 +44,8 @@ public class Story {
     public Page getPage(int pageNumber) {
 
         if (pageNumber >= stories.length) {
-            return  stories[0];
+            return stories[0];
         }
-        return  stories[pageNumber];
+        return stories[pageNumber];
     }
 }
