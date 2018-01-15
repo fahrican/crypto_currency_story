@@ -7,28 +7,39 @@
 
     <string name="main_page_text">Please, scroll down to type your name and click the start button below</string>
 
-    <string name="page0">On your return trip from studying Saturn\'s rings, you hear a distress signal that seems to be coming from the surface of Mars. It\'s strange because there hasn\'t been a colony there in years. Even stranger, it\'s calling you by name: \"Help me, %1$s, you\'re my only hope.\"</string>
+    <string name="page0">Bitcoin is a cryptocurrency and worldwide payment system.[9]:3 It is the first decentralized digital currency, as the system works without a central bank or single administrator.[9]:1[10] The network is peer-to-peer and transactions take place between users directly, without an intermediary.[9]:4 These transactions are verified by network nodes through the use of cryptography and recorded in a public distributed ledger called a blockchain. Bitcoin was invented by an unknown person or group of people under the name Satoshi Nakamoto[11] and released as open-source software in 2009.[12]
+Bitcoins are created as a reward for a process known as mining. They can be exchanged for other currencies,[13] products, and services. As of February 2015, over 100,000 merchants and vendors accepted bitcoin as payment.[14] Research produced by the University of Cambridge estimates that in 2017, there are 2.9 to 5.8 million unique users using a cryptocurrency wallet, most of them using bitcoin.[15]</string>
     <string name="page0_choice1">Continue to next currency</string>
     <string name="page0_choice2">Click here for an random currency</string>
 
-    <string name="page1">You deftly land your ship near where the distress signal originated. You didn\'t notice anything strange on your fly-by, but there is a cave in front of you. Behind you is an abandoned rover from the early 21st century.</string>
-    <string name="page1_choice1">Explore the cave</string>
-    <string name="page1_choice2">Explore the rover</string>
+    <string name="page1">Ethereum is an open-source, public, blockchain-based distributed computing platform featuring smart contract (scripting) functionality.[3] It provides a decentralized Turing-complete virtual machine, the Ethereum Virtual Machine (EVM), which can execute scripts using an international network of public nodes. Ethereum also provides a cryptocurrency token called "ether", which can be transferred between accounts and used to compensate participant nodes for computations performed.[4] "Gas", an internal transaction pricing mechanism, is used to mitigate spam and allocate resources on the network.
+Ethereum was proposed in late 2013 by Vitalik Buterin, a cryptocurrency researcher and programmer. Development was funded by an online crowdsale that took place between July and August 2014.[6] The system went live on 30 July 2015, with 11.9 million coins "premined" for the crowdsale.[7] This accounts for approximately 13 percent of the total circulating supply.
+In 2016, as a result of the collapse of The DAO project, Ethereum was split into two separate blockchains – the new separate version became Ethereum (ETH), and the original continued as Ethereum Classic (ETC).[8][9][10] The value of the Ethereum currency grew over 13,000 percent in 2017.[11]</string>
+    <string name="page1_choice1">Continue to next currency</string>
+    <string name="page1_choice2">Click here for an random currency</string>
 
-    <string name="page2">You continue your course to Earth. Two days later, you receive a transmission from HQ saying that they have detected some sort of anomaly on the surface of Mars near an abandoned rover. They ask you to investigate, but ultimately the decision is yours because your mission has already run much longer than planned and supplies are low.</string>
-    <string name="page2_choice1">Head back to Mars to investigate</string>
-    <string name="page2_choice2">Continue home to Earth</string>
+    <string name="page2">Ripple is a real-time gross settlement system (RTGS), currency exchange and remittance network by Ripple. Also called the Ripple Transaction Protocol (RTXP) or Ripple protocol,[3] it is built upon a distributed open source Internet protocol, consensus ledger and native cryptocurrency called XRP (ripples). Released in 2012, Ripple purports to enable "secure, instantly and nearly free global financial transactions of any size with no chargebacks." It supports tokens representing fiat currency, cryptocurrency, commodity or any other unit of value such as frequent flier miles or mobile minutes.[4][5] At its core, Ripple is based around a shared, public database or ledger,[6] which uses a consensus process that allows for payments, exchanges and remittance in a distributed process.
+The network can operate without the Ripple company.[7] Among validators are companies, internet service providers, and the Massachusetts Institute of Technology.</string>
+    <string name="page2_choice1">Continue to next currency</string>
+    <string name="page2_choice2">Click here for an random currency</string>
 
-    <string name="page3">Your EVA suit is equipped with a headlamp, which you use to navigate the cave. After searching for a while your oxygen levels are starting to get pretty low. You know you should go refill your tank, but there\'s a very faint light up ahead.</string>
-    <string name="page3_choice1">Refill at ship and explore the rover</string>
-    <string name="page3_choice2">Continue towards the faint light</string>
+    <string name="page3">Monero (XMR) is an open-source cryptocurrency created in April 2014 that focuses on privacy and decentralization that runs on Windows, macOS, Linux, Android, and FreeBSD.[2] Monero uses a public ledger to record transactions while new units are created through a process called mining. Monero aims to improve on existing cryptocurrency design by obscuring sender, recipient and amount of every transaction made as well as making the mining process more egalitarian.
+The focus on privacy has attracted illicit use by people interested in evading law enforcement.[4][5] The egalitarian mining process made it viable to distribute the mining effort opening new funding avenues for both legitimate online publishers and malicious hackers who covertly embed the mining code into websites and apps</string>
+    <string name="page3_choice1">Continue to next currency</string>
+    <string name="page3_choice2">Click here for an random currency</string>
 
-    <string name="page4">The rover is covered in dust and most of the solar panels are broken. But you are quite surprised to see the on-board system booted up and running. In fact, there is a message on the screen: \"%1$s, come to 28.543436, -81.369031.\" Those coordinates aren\'t far, but you don\'t know if your oxygen will last for a trip there and back.</string>
-    <string name="page4_choice1">Explore the coordinates</string>
-    <string name="page4_choice2">Return to Earth</string>
+    <string name="page4">\"Hello %1$s\," Dash (formerly known as Darkcoin and XCoin) is an open source peer-to-peer cryptocurrency. On top of Bitcoins feature set, it currently offers instant transactions (InstantSend),[1] private transactions (PrivateSend)[2] and operates a self-governing and self-funding model that enables the Dash network to pay individuals and businesses to perform work that adds value to the network[3]. Dashs decentralized governance and budgeting system makes it a decentralized autonomous organization (DAO)</string>
+    <string name="page4_choice1">Continue to next currency</string>
+    <string name="page4_choice2">Click here for an random currency</string>
 
-    <string name="page5">After a long walk slightly uphill, you end up at the top of a small crater. You look around, and are overjoyed to see your favorite android, %1$s-S1124. It had been lost on a previous mission to Mars! You take it back to your ship and fly back to Earth.</string>
+    <string name="page5">Litecoin was released via an open-source client on GitHub on October 7, 2011 by Charlie Lee, a former Google employee.[4] The Litecoin network went live on October 13, 2011.[5] It was a fork of the Bitcoin Core client, differing primarily by having a decreased block generation time (2.5 minutes), increased maximum number of coins, different hashing algorithm (scrypt, instead of SHA-256), and a slightly modified GUI.[6]
+During the month of November 2013, the aggregate value of Litecoin experienced massive growth which included a 100% leap within 24 hours.[7]
+Litecoin reached a $1 billion market capitalization in November 2013.[8] By late November 2017, its market capitalization was US$4,600,081,733 ($85.18 per coin).[9][10] By mid-December 2017, the coin's marketcap had reached US$20,000,000,000 and each litecoin was valued at approximately US$371.00.
+In May 2017, Litecoin became the first of the top-5 (by market cap) cryptocurrencies to adopt Segregated Witness.[11] Later in May of the same year, the first Lightning Network transaction was completed through Litecoin, transferring 0.00000001 LTC from Zürich to San Francisco in under one second.[12]
 
-    <string name="page6">You arrive home on Earth. While your mission was a success, you forever wonder what was sending that signal. Perhaps a future mission will be able to investigate…</string>
-    <string name="play_again_button_text">PLAY AGAIN</string>
+</string>
+
+    <string name="page6">The NEM Smart Asset System allows you to totally customize how you use the NEM blockchain. First, your Namespace defines your home on the blockchain where you can name your own Mosaics, provide easy-to-remember names to user addresses, and more.
+Mosaics then are the basic building blocks of Smart Assets that you can use to represent lots of simple things: it could be a coin, a signature, a status update or more – you decide.</string>
+    <string name="play_again_button_text">RETURN TO BITCOIN</string>
 </resources>
