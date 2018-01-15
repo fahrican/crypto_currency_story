@@ -28,7 +28,7 @@ The focus on privacy has attracted illicit use by people interested in evading l
     <string name="page3_choice1">Continue to next currency</string>
     <string name="page3_choice2">Click here for an random currency</string>
 
-    <string name="page4">\"Hello %1$s\," Dash (formerly known as Darkcoin and XCoin) is an open source peer-to-peer cryptocurrency. On top of Bitcoins feature set, it currently offers instant transactions (InstantSend),[1] private transactions (PrivateSend)[2] and operates a self-governing and self-funding model that enables the Dash network to pay individuals and businesses to perform work that adds value to the network[3]. Dashs decentralized governance and budgeting system makes it a decentralized autonomous organization (DAO)</string>
+    <string name="page4">\"Hello %1$s,\" Dash (formerly known as Darkcoin and XCoin) is an open source peer-to-peer cryptocurrency. On top of Bitcoins feature set, it currently offers instant transactions (InstantSend),[1] private transactions (PrivateSend)[2] and operates a self-governing and self-funding model that enables the Dash network to pay individuals and businesses to perform work that adds value to the network[3]. Dashs decentralized governance and budgeting system makes it a decentralized autonomous organization (DAO)</string>
     <string name="page4_choice1">Continue to next currency</string>
     <string name="page4_choice2">Click here for an random currency</string>
 

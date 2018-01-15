@@ -92,7 +92,7 @@ public class StoryActivity extends AppCompatActivity {
             super.onBackPressed();
         }
         else {
-            myStack.pop();
+            loadPage(myStack.pop());
         }
     }
 
