@@ -62,7 +62,7 @@ public class StoryActivity extends AppCompatActivity {
         Drawable pageImage = ContextCompat.getDrawable(this, page.getImageId());
         storyImage.setImageDrawable(pageImage);
 
-        String pageText = getString(page.getTextId());
+        String pageText = getString(page.getTextId()).replaceAll("@name@", name);
         //pageText = String.format(pageText, name);
 
         storyTextView.setText(pageText);

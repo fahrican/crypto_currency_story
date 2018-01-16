@@ -49,6 +49,7 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
+                android:inputType="textCapWords"
                 android:hint="@string/enter_name_hint" />
         </LinearLayout>
     </ScrollView>

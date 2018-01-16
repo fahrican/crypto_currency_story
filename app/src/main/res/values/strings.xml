@@ -7,7 +7,7 @@
 
     <string name="main_page_text">Please, scroll down to type your name and click the start button below</string>
 
-    <string name="page0">Bitcoin is a cryptocurrency and worldwide payment system.[9]:3 It is the first decentralized digital currency, as the system works without a central bank or single administrator.[9]:1[10] The network is peer-to-peer and transactions take place between users directly, without an intermediary.[9]:4 These transactions are verified by network nodes through the use of cryptography and recorded in a public distributed ledger called a blockchain. Bitcoin was invented by an unknown person or group of people under the name Satoshi Nakamoto[11] and released as open-source software in 2009.[12]
+    <string name="page0">Hello @name@, Bitcoin is a cryptocurrency and worldwide payment system.[9]:3 It is the first decentralized digital currency, as the system works without a central bank or single administrator.[9]:1[10] The network is peer-to-peer and transactions take place between users directly, without an intermediary.[9]:4 These transactions are verified by network nodes through the use of cryptography and recorded in a public distributed ledger called a blockchain. Bitcoin was invented by an unknown person or group of people under the name Satoshi Nakamoto[11] and released as open-source software in 2009.[12]
 Bitcoins are created as a reward for a process known as mining. They can be exchanged for other currencies,[13] products, and services. As of February 2015, over 100,000 merchants and vendors accepted bitcoin as payment.[14] Research produced by the University of Cambridge estimates that in 2017, there are 2.9 to 5.8 million unique users using a cryptocurrency wallet, most of them using bitcoin.[15]</string>
     <string name="page0_choice1">Continue to next currency</string>
     <string name="page0_choice2">Click here for an random currency</string>
@@ -28,7 +28,7 @@ The focus on privacy has attracted illicit use by people interested in evading l
     <string name="page3_choice1">Continue to next currency</string>
     <string name="page3_choice2">Click here for an random currency</string>
 
-    <string name="page4">\"Hello %1$s,\" Dash (formerly known as Darkcoin and XCoin) is an open source peer-to-peer cryptocurrency. On top of Bitcoins feature set, it currently offers instant transactions (InstantSend),[1] private transactions (PrivateSend)[2] and operates a self-governing and self-funding model that enables the Dash network to pay individuals and businesses to perform work that adds value to the network[3]. Dashs decentralized governance and budgeting system makes it a decentralized autonomous organization (DAO)</string>
+    <string name="page4">Hello @name@, Dash (formerly known as Darkcoin and XCoin) is an open source peer-to-peer cryptocurrency. On top of Bitcoins feature set, it currently offers instant transactions (InstantSend),[1] private transactions (PrivateSend)[2] and operates a self-governing and self-funding model that enables the Dash network to pay individuals and businesses to perform work that adds value to the network[3]. Dashs decentralized governance and budgeting system makes it a decentralized autonomous organization (DAO)</string>
     <string name="page4_choice1">Continue to next currency</string>
     <string name="page4_choice2">Click here for an random currency</string>
 
